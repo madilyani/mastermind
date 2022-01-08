@@ -1,0 +1,76 @@
+// 1340px mdeia
+@include xxlg-xxxlg {
+  .auto__container {
+    padding: 0 30px;
+  }
+  @include header-xxlg-xxxlg;
+
+  @include intro-xxlg-xxxlg;
+  @include purchase-xxlg-xxxlg;
+  @include banner-xxlg-xxxlg;
+}
+// 1180px mdeia
+@include xlg-xxlg {
+  @include nav-xlg-xxlg;
+  @include header-xlg-xxlg;
+  @include footer-xlg-xxlg;
+
+  @include purchase-xlg-xxlg;
+  @include intro-xlg-xxlg;
+
+  .button {
+    padding: 15px 45px;
+    font-size: 18px;
+    line-height: 1;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  h5 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 24px;
+    &.bg {
+      font-size: 20px;
+      line-height: 30px;
+    }
+    &.sm {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+}
+// 900px
+@include lg-xlg {
+  @include footer-lg-xlg;
+
+  @include purchase-lg-xlg;
+  @include pay-lg-xlg;
+}
+// 800px
+@include md-lg {
+  @include intro-md-lg;
+  @include banner-md-lg;
+}
+// 600px
+@include xsm-sm {
+  .switch {
+    right: 20px;
+    bottom: 20px;
+  }
+  .auto__container {
+    padding: 0 15px;
+  }
+  @include intro-xsm-sm;
+  @include purchase-xsm-sm;
+  @include slider-xsm-sm;
+  @include banner-xsm-sm;
+
+  @include footer-xsm-sm;
+}
