@@ -18,6 +18,13 @@ h3 {
   line-height: 138.5%;
   color: $main;
 }
+h4 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 138.5%;
+  letter-spacing: 1px;
+  color: $main;
+}
 h5 {
   font-weight: bold;
   font-size: 25px;
@@ -48,6 +55,7 @@ p {
   font-size: 23px;
   font-family: $primary-font;
   line-height: 28px;
+  cursor: pointer;
   display: inline-block;
   color: #ffffff;
   border-radius: 50px;

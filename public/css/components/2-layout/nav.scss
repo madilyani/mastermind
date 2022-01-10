@@ -118,3 +118,9 @@
     }
   }
 }
+@mixin nav-xsm-sm {
+  .nav {
+    top: 60px;
+    height: calc(100% - 60px);
+  }
+}

@@ -7,6 +7,8 @@ $search-border: var(--search-border);
 $search-bg: var(--search-bg);
 $button-add: var(--button-add);
 $input-bg: var(--input-bg);
+$total-color: var(--total-color);
+$border: var(--border);
 
 $sticky-color: var(--sticky-color);
 $main: var(--main);
@@ -35,12 +37,13 @@ $gray: #ededed;
   --search-border: #eeeeee;
   --button-add: #2b2d53;
   --input-bg: #faf8ff;
-
+  --total-color: #4b5c98;
   --sticky-color: #48b3e4;
   --main: #293b7a;
   --main-light: #5e6b8e;
   --title: #111c42;
   --arrow: #fff;
+  --border: #828282;
 
   --btn-primary: linear-gradient(118.63deg, #68e2e1 2.25%, #97aae9 83.88%),
     #04bad5;
@@ -64,6 +67,8 @@ $gray: #ededed;
   --search-border: #252627;
   --button-add: #fff;
   --input-bg: #241f31;
+  --total-color: #fff;
+  --border: #3c3e3f;
 
   --sticky-color: #100a21;
   --main: #fff;

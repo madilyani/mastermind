@@ -56,3 +56,12 @@
     background: $sticky-color;
   }
 }
+@mixin header-xsm-sm {
+  .header {
+    &__inner {
+      &-logo {
+        width: 140px;
+      }
+    }
+  }
+}
