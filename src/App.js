@@ -10,7 +10,7 @@ import Shop from "./Pages/Shop/Shop";
 export default function App() {
   const initTheme =
     localStorage.getItem("lightMode") === "true"
-      ? true
+      ? true 
       : localStorage.getItem("lightMode") === "false"
       ? false
       : true;
