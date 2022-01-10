@@ -4,6 +4,7 @@
     padding: 0 30px;
   }
   @include header-xxlg-xxxlg;
+  @include hero-xxlg-xxxlg;
 
   @include intro-xxlg-xxxlg;
   @include purchase-xxlg-xxxlg;
@@ -14,14 +15,28 @@
   @include nav-xlg-xxlg;
   @include header-xlg-xxlg;
   @include footer-xlg-xxlg;
-
+  @include hero-xlg-xxlg;
+  // index page start
   @include purchase-xlg-xxlg;
   @include intro-xlg-xxlg;
+  // index page end
+  // shop page start
+  @include products-xlg-xxlg;
+  @include search-xlg-xxlg;
 
+  // shop page end
   .button {
     padding: 15px 45px;
     font-size: 18px;
     line-height: 1;
+    &.add {
+      font-size: 16px;
+      line-height: 1;
+      img {
+        width: 16px;
+        margin-right: 6px;
+      }
+    }
   }
   h1 {
     font-size: 35px;
@@ -55,8 +70,14 @@
 }
 // 800px
 @include md-lg {
+  @include hero-md-lg;
+
   @include intro-md-lg;
   @include banner-md-lg;
+  // shop page start
+  @include products-md-lg;
+  @include search-xlg-xxlg;
+  // shop page end
 }
 // 600px
 @include xsm-sm {
@@ -73,4 +94,5 @@
   @include banner-xsm-sm;
 
   @include footer-xsm-sm;
+  @include hero-xsm-sm;
 }

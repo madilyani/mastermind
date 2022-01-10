@@ -2,6 +2,11 @@ $bgcolor: var(--bgcolor);
 $bgcolor-2: var(--bgcolor-2);
 $bgcolor-3: var(--bgcolor-3);
 $bgcolor-tricky: var(--bgcolor-tricky);
+$search-color: var(--search-color);
+$search-border: var(--search-border);
+$search-bg: var(--search-bg);
+$button-add: var(--button-add);
+
 
 $sticky-color: var(--sticky-color);
 $main: var(--main);
@@ -25,6 +30,10 @@ $gray: #ededed;
   --bgcolor-2: #edf1fb;
   --bgcolor-3: #f1f7ff;
   --bgcolor-tricky: #fff;
+  --search-color: #90a2bd;
+  --search-bg: #fff;
+  --search-border: #eeeeee;
+  --button-add: #2B2D53;
 
   --sticky-color: #48b3e4;
   --main: #293b7a;
@@ -49,6 +58,10 @@ $gray: #ededed;
   --bgcolor-2: #241f31;
   --bgcolor-3: #252627;
   --bgcolor-tricky: #241f31;
+  --search-color: #fff;
+  --search-bg: #241f31;
+  --search-border: #252627;
+  --button-add: #fff;
 
   --sticky-color: #100a21;
   --main: #fff;

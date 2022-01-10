@@ -36,6 +36,7 @@ export default function Intro() {
             <img src="images/index/illustration.svg" alt="" />
           </div>
         </div>
+        
       </div>
     </section>
   );

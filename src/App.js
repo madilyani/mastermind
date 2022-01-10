@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Footer from "./Base/Footer";
 import Header from "./Base/Header";
 import Home from "./Pages/Home/Home";
+import Shop from "./Pages/Shop/Shop";
 
 export default function App() {
   const initTheme =
@@ -37,8 +38,9 @@ export default function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/shop" element={<Shop />} />
+
         {/* 
-        <Route path="/user" element={"user"} />
         <Route path="/exchange" element={"exchange"} />
         <Route path="/my-cards" element={<MyCards></MyCards>} />
         <Route path="/cards-group" element={<CardGroup></CardGroup>} /> */}

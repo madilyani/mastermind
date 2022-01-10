@@ -15,7 +15,7 @@ h2 {
 h5 {
   font-weight: bold;
   font-size: 25px;
-  line-height: 41px;
+  line-height: 40px;
   color: $title;
 }
 p {
@@ -83,6 +83,49 @@ p {
     img {
       width: 18px;
       margin-right: 5px;
+    }
+  }
+  &.add {
+    padding: 19px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: $button-add;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.22);
+    box-shadow: 0px 30.0153px 45px rgba(21, 43, 240, 0.16);
+    border-radius: 50px;
+    position: relative;
+    z-index: 1;
+    background: none;
+    &::before {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      z-index: -2;
+      width: 100%;
+      border-radius: 50px;
+      height: 100%;
+      background: linear-gradient(118.63deg, #68e2e1 2.25%, #c479ff 83.88%),
+        #0094a4;
+    }
+    &:after {
+      position: absolute;
+      content: "";
+      width: calc(100% - 2px);
+      z-index: -1;
+      top: 1px;
+      left: 1px;
+      border-radius: 50px;
+      height: calc(100% - 2px);
+      background: $bgcolor;
+    }
+    img {
+      margin-right: 12px;
+      width: 20px;
     }
   }
 }
