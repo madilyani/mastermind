@@ -23,7 +23,7 @@
   // shop page start
   @include products-xlg-xxlg;
   @include search-xlg-xxlg;
-
+  @include bill-xlg-xxlg;
   // shop page end
   .button {
     padding: 15px 45px;
@@ -43,6 +43,9 @@
   }
   h2 {
     font-size: 35px;
+  }
+  h3 {
+    font-size: 30px;
   }
   h5 {
     font-size: 20px;
@@ -67,6 +70,10 @@
 
   @include purchase-lg-xlg;
   @include pay-lg-xlg;
+
+  // bill page start
+  @include input-lg-xlg;
+  // bill page end
 }
 // 800px
 @include md-lg {
@@ -76,8 +83,13 @@
   @include banner-md-lg;
   // shop page start
   @include products-md-lg;
-  @include search-xlg-xxlg;
+  @include search-md-lg;
   // shop page end
+
+  // bill page start
+  @include input-md-lg;
+  @include bill-md-lg;
+  // bill page end
 }
 // 600px
 @include xsm-sm {

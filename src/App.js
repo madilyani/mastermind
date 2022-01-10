@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Footer from "./Base/Footer";
 import Header from "./Base/Header";
+import Bill from "./Pages/Bill/Bill";
 import Home from "./Pages/Home/Home";
 import Shop from "./Pages/Shop/Shop";
 
@@ -39,9 +40,9 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/shop" element={<Shop />} />
+        <Route path="/bill" element={<Bill />} />
 
         {/* 
-        <Route path="/exchange" element={"exchange"} />
         <Route path="/my-cards" element={<MyCards></MyCards>} />
         <Route path="/cards-group" element={<CardGroup></CardGroup>} /> */}
       </Routes>
