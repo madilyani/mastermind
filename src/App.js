@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Footer from "./Base/Footer";
 import Header from "./Base/Header";
 import Bill from "./Pages/Bill/Bill";
+import Cart from "./Pages/Cart/Cart";
 import Home from "./Pages/Home/Home";
 import Shop from "./Pages/Shop/Shop";
 
@@ -41,9 +42,9 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/bill" element={<Bill />} />
+        <Route path="/cart" element={<Cart></Cart>} />
 
         {/* 
-        <Route path="/my-cards" element={<MyCards></MyCards>} />
         <Route path="/cards-group" element={<CardGroup></CardGroup>} /> */}
       </Routes>
       <Footer />

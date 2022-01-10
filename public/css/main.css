@@ -1050,8 +1050,8 @@ p.sm {
   content: "";
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
-  -webkit-transform: rotateY(357deg) translateZ(0) translateX(-5%);
-          transform: rotateY(357deg) translateZ(0) translateX(-5%);
+  -webkit-transform: rotateY(357deg) translateZ(0) translateX(-3%);
+          transform: rotateY(357deg) translateZ(0) translateX(-3%);
   background: var(--bgcolor);
   border-radius: 40px;
   z-index: -1;
@@ -1165,7 +1165,8 @@ p.sm {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
-.autocomplete__input img {
+.autocomplete__input svg {
+  stroke: var(--main-light);
   width: 10px;
   position: absolute;
   right: 20px;
@@ -2030,8 +2031,9 @@ p.sm {
   margin-right: 28px;
   width: 40px;
 }
-.bill__header-icon img {
-  width: 100%;
+.bill__header-icon svg {
+  width: 40px;
+  fill: var(--title);
 }
 .bill__header-text {
   font-weight: normal;
@@ -2053,6 +2055,54 @@ p.sm {
 }
 .bill h3 {
   margin-bottom: 65px;
+}
+
+.cart__table-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.cart__table-col {
+  width: 130px;
+}
+.cart__table-col:nth-child(1) {
+  width: calc(100% - 390px);
+}
+.cartLine {
+  padding: 35px;
+  border-top: 1px dashed var(--main-light);
+  border-bottom: 1px dashed var(--main-light);
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.cartLine__delete {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.cartLine__delete svg {
+  width: 18px;
+  fill: #ff1717;
+}
+.cartLine__image {
+  width: 160px;
+  height: 160px;
+  border: 1px solid var(--title);
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.cartLine__image img {
+  max-width: 140px;
+  max-height: 140px;
 }
 
 @media (max-width: 1340px) {
@@ -2521,6 +2571,9 @@ p.sm {
   .bill__header-icon {
     width: 20px;
     margin-right: 10px;
+  }
+  .bill__header-icon svg {
+    width: 20px;
   }
   .bill__header-text {
     font-size: 14px;

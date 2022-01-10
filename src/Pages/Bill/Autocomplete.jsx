@@ -39,7 +39,21 @@ export default function Autocomplete(props) {
           placeholder={props.placeholder}
           type="text"
         />
-        <img src="images/icons/chevron-bottom.svg" alt="chevron" />
+        <svg
+          width="19"
+          height="11"
+          viewBox="0 0 19 11"
+          fill="none
+        "
+        >
+          <path
+            d="M1 0.999999L9.22357 9.88125C9.2937 9.95678 9.39432 10 9.5 10C9.60568 10 9.7063 9.95678 9.77643 9.88125L18 1"
+            stroke=""
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
       </div>
 
       <div className={`autocomplete__list ${listVisible ? "visible" : ""}`}>

@@ -1,0 +1,43 @@
+.cart {
+  &__table {
+    &-row {
+      display: flex;
+    }
+    &-col {
+      width: 130px;
+      &:nth-child(1) {
+        width: calc(100% - 390px);
+      }
+    }
+  }
+  &Line {
+    padding: 35px;
+    border-top: 1px dashed $main-light;
+    border-bottom: 1px dashed $main-light;
+
+    position: relative;
+    box-sizing: border-box;
+    &__delete {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      svg {
+        width: 18px;
+        fill: #ff1717;
+      }
+    }
+    &__image {
+      width: 160px;
+      height: 160px;
+      border: 1px solid $title;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        max-width: 140px;
+        max-height: 140px;
+      }
+    }
+  }
+}

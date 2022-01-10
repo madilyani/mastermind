@@ -6,7 +6,8 @@
     input:focus ~ img {
       transform: rotate(180deg);
     }
-    img {
+    svg {
+      stroke: $main-light;
       width: 10px;
       position: absolute;
       right: 20px;
